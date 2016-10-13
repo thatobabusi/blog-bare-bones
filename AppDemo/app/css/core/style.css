@@ -1,0 +1,70 @@
+/*------------------------------------------------------------------
+Master Style sheet
+--------------------------------------------------------------------*/
+
+
+/*--------------------------
+    1. Theme Default CSS
+----------------------------*/
+html,
+/*body {
+    height: 100%
+}*/
+body {
+    font-family: 'Varela', sans-serif;
+    font-size: 14px;
+}
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus {
+    outline: 0 solid;
+    color: black;
+}
+img {
+    max-width: 100% !important;
+    height: auto;
+}
+.fix {
+    overflow: hidden
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+.section_padding {
+    padding: 75px 0px 80px 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    /*list-style: none;*/
+}
+

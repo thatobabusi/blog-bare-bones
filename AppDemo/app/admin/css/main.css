@@ -1,0 +1,48 @@
+.bg-danger, .bg-success {
+	padding: 0 5px;
+}
+
+a {
+	color: #EF1F2F;
+	text-decoration: none;
+}
+
+/* --- Navbar ---*/
+.navbar-default {
+	background-color: #FFFFFF;
+}
+
+.navbar-fixed-top {
+	border-width: 0 0 10px;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+	border-radius: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+.navbar {
+	border-radius: 4px;
+	border: 0px solid #000000;
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 0;
+}
+
+/* --- Footer ---*/
+.footer {
+	position: fixed;
+	bottom: 0;
+	margin-left:0;
+	margin-right:0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #ffffff;
+}
+
+/* --- User Profiles ---*/
+/* USER PROFILE PAGE */
